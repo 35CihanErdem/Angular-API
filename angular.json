@@ -67,7 +67,8 @@
               "buildTarget": "api_project:build:production"
             },
             "development": {
-              "buildTarget": "api_project:build:development"
+              "buildTarget": "api_project:build:development",
+              "proxyConfig": "proxy.conf.json"  
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "88beab60-a0a0-44a7-8dda-9d3ee89790a1"
   }
 }
