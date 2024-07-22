@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://localhost:5062",
+    "target": "http://localhost/angular_api",
     "secure": false,
     "changeOrigin": true,
     "logLevel": "debug"
