@@ -66,6 +66,7 @@
             "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
+            
             "production": {
               "buildTarget": "api_project:build:production"
             },
